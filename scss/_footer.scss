@@ -1,0 +1,39 @@
+/*************************** FOOTER **********************************/
+.footer {
+  background-color: black;
+  text-align: center;
+  padding: 30px;
+  color: white;
+  border: 3px solid $color-principal;
+  border-radius: 10px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 99%;
+}
+
+
+
+/****** EXTEND ********/
+.tituloFooter {
+  @extend .navbar-brand;
+  
+}
+
+.text-primary a {
+  color: dodgerblue;
+}
+
+.text-info a {
+  color: aqua;
+}
+
+.text-warning a {
+  color: orange;
+}
+
+.text-danger a {
+  color: red;
+}
+
+
