@@ -12,12 +12,9 @@
   width: 99%;
 }
 
-
-
 /****** EXTEND ********/
 .tituloFooter {
   @extend .navbar-brand;
-  
 }
 
 .text-primary a {
@@ -35,5 +32,3 @@
 .text-danger a {
   color: red;
 }
-
-
